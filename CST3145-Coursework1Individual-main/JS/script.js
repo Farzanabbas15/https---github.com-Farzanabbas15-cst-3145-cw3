@@ -7,7 +7,7 @@ const app = new Vue({
       search: "",
       sortBy: "subject",
       sortDirection: "asc",
-      products: products,
+      products: [],
       checkout: [],
       order: {
         name: "",
@@ -30,6 +30,13 @@ const app = new Vue({
       },
     };
   },
+  created() {
+    fetch("http://localhost:3000/collections/products")
+    .then((response) => response.json())
+    .then((data) => {
+        this.products=data;
+    })
+},
 
   methods: {
     addToCart(product) {

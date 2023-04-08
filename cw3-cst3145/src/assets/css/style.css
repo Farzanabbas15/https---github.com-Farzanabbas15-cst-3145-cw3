@@ -1,0 +1,248 @@
+.header {
+  color: #b80d0d;
+  font-size: 20px;
+  margin: 0%;
+  overflow: hidden;
+}
+
+
+.header2 {
+  text-align: center;
+  background-color: #0e4cbf;
+  color:#b80d0d;
+  font-size: 20px;
+  margin: 0%;
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 50px;
+  margin-left: 2%; 
+  margin-top: 1%;
+  width: 20%;
+
+
+}
+
+.header a:hover {
+  background-color: #6b0a0a;
+  color: black;
+}
+
+.header a.active {
+  background-color: #04AA6D;
+}
+
+.lesson-box {
+  width: 100%;
+  border: 1px solid;
+  padding: 1pc;
+  margin-top: 1pc;
+}
+
+.lesson-box p span {
+  font-weight: 700;
+}
+
+
+button[disabled] {
+  opacity: 0.3;
+}
+
+.lesson-box2 {
+  margin-top: 30px;
+  width: 25%;
+  border: 1px solid;
+  padding: 20px;
+  margin: 0%;
+}
+
+.classimage {
+  width: 50%;
+  height: 200px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background-color:aqua;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.checkout {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: aqua;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.asc:after {
+  content: "\25B2"
+}
+
+.desc:after {
+  content: "\25BC"
+}
+
+input, select {
+  font-size: 16px !important;
+  width: 100%;
+  padding: 10px 20px !important;
+  min-height: 47px !important;
+  border-color: #656565 !important;
+  border-width: 1px !important;
+}
+
+input[type=number] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=select] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+select {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+.product-filters label {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: gray;
+}
+
+a,
+li {
+  color: #000000;
+}
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.btn2 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 14%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn2:hover {
+  background-color: #8e5a5a;
+}
+
+.col-26 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-26 {
+  padding: 0 16px;
+  margin-left: 90pc;
+  margin-top: -25pc;
+}
+
+.lessonimage {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 5px;
+  float: right;
+  border-radius: 50%;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.product-image img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* navbar */
+.navbar-cart button:focus {
+  box-shadow: none;
+}
+
+.navbar-checkout button:focus {
+  box-shadow: none;
+}
+
+.navbar-cart .badge {
+  font-size: 0.7rem;
+  transform: translate(-50%, -50%);
+}
+
+.pr-3{
+  padding-right: 1rem;
+}
